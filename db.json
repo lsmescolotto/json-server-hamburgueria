@@ -6,6 +6,28 @@
       "name": "Kenzinho",
       "age": 38,
       "id": 1
+    },
+    {
+      "email": "LOPNM@gmail.com",
+      "password": "$2a$10$sTDoba/5NlUjHPfFbBSdNeYSfaAt22gPf30vEBjEHZUIIx9NyKcPq",
+      "id": 2
+    }
+  ],
+  "books": [
+    {
+      "title": "Maus",
+      "author": "Art Spiegelman",
+      "subject": "HQ that tells the story of a jewish who survived nazism",
+      "pages": 300
+    }
+  ],
+  "read_books": [
+    {
+      "title": "Maus",
+      "author": "Art Spiegelman",
+      "subject": "HQ that tells the story of a jewish who survived nazism",
+      "pages": 300,
+      "reading_time": "2 months"
     }
   ]
 }
