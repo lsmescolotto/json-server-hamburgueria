@@ -92,7 +92,12 @@ Dando tudo certo, a resposta terá esse formato:
 POST /books - FORMATO DA RESPOSTA - STATUS 201
 [
 {
-//remains to be seen
+"title": "História do Brasil para ocupados",
+"author": "Luciano Figueiredo",
+"subject": "Brazilian History",
+"pages": 400,
+"userId": 1,
+"id": 2
 }
 ]
 
@@ -116,7 +121,13 @@ Dando tudo certo, a resposta terá esse formato:
 POST /read_books - FORMATO DA RESPOSTA - STATUS 201
 [
 {
-//remains to be seen
+"title": "História do Brasil para ocupados",
+"author": "Luciano Figueiredo",
+"subject": "Brazilian History",
+"pages": 400,
+"reading_time": "2 months",
+"userId": 1,
+"id": 2
 }
 ]
 
@@ -129,6 +140,7 @@ GET /read_books - FORMATO DA RESPOSTA - STATUS 201
 "title": "História do Brasil para ocupados",
 "author": "Luciano Figueiredo",
 "subject": "Brazilian History",
-"pages": 400
+"pages": 400,
+"reading_time": "2 months",
 }
 ]
