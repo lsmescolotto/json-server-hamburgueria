@@ -56,18 +56,6 @@ POST /login - FORMATO DA RESPOSTA - STATUS 201
 }
 ]
 
-# Listar livros cadastrados
-
-GET /books - FORMATO DA RESPOSTA - STATUS 201
-[
-{
-"title": "Maus",
-"author": "Art Spiegelman",
-"subject": "HQ that tells the story of a jewish who survived nazism",
-"pages": 300
-}
-]
-
 # Rotas que precisam de autorização
 
 Rotas que necessitam de autorização devem ter no cabeçalho da requisição, o token no campo "Authotization":
