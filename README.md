@@ -225,9 +225,9 @@ Caso o id esteja errado ou seja inválido apresentará o seguinte erro:
 <br/>
  
  
-`DELETE /products/IdDoProduto - FORMATO DA REQUISIÇÃO`
+`DELETE /cart/IdDoProduto - FORMATO DA REQUISIÇÃO`
  
-`/products/1`
+`/cart/1`
  
 Dando tudo certo, a resposta terá esse formato:
 `FORMATO DA RESPOSTA - STATUS 200`
